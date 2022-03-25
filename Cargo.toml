@@ -1,0 +1,8 @@
+[package]
+name = "test-rnpdno"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+reqrnpdno = "0.1.3"
+chrono = { version = "0.4", features = ["serde"] }
