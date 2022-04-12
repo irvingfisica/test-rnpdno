@@ -5,8 +5,8 @@ use std::time::Instant;
 
 fn main () {
 
-    let limite_inferior = NaiveDate::from_ymd(2006, 1, 1);
-    let limite_superior = NaiveDate::from_ymd(2022, 3, 24);
+    let limite_inferior = NaiveDate::from_ymd(1990, 1, 1);
+    let limite_superior = NaiveDate::from_ymd(2005, 12, 31);
 
     let mut fecha_iter = limite_superior.clone();
 
@@ -37,8 +37,6 @@ fn main () {
                 println!("Falló intento en fecha: {}", fecha);
             }
         }
-
-        
     }
 
 }
